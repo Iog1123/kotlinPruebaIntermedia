@@ -11,6 +11,7 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.crisspian.shared.databinding.FragmentFirstBinding
+import com.crisspian.shared.model.Task
 
 
 /**
@@ -33,6 +34,7 @@ class FirstFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
 
         //Instanciamos el adapter y se lo pasamos al RV
         val adapter = TaskAdapter()
